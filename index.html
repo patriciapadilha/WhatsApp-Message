@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens WhatsApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <header>
+        <h1>Disparador de Mensagens no WhatsApp</h1>
+        <label>
+            <input type="text" id="input-text" placeholder="Digite sua mensagem">
+            <button type="submit" id="btn-create-new">Adicionar</button>
+        </label>
+        <p>Clique em uma mensagem para enviar</p>
+    </header>
+    <main id="msg-list">
+        <div draggable="true" ondragstart="drag(event)" id="1">
+            <p>Oi! Bom dia 💛</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/4494/4494494.png">
+        </div>
+        <div draggable="true" ondragstart="drag(event)" id="2">
+            <p> O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/4494/4494494.png">
+        </div>
+        <div draggable="true" ondragstart="drag(event)" id="3">
+            <p>Creia no seu sucesso e não crie obstáculos na sua mente, mas comece agindo! 💪🏼</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/4494/4494494.png">
+        </div>
+    </main>
+    <footer>
+        <img ondrop="drop(event)" ondragover="over(event)" id="delete" src="https://cdn-icons-png.flaticon.com/512/3413/3413241.png">
+        <p>Drag and Drog to delete</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
