@@ -1,6 +1,6 @@
 # Disparador de Mensagens no WhatsApp
 
-### Projeto de fim de semana, para relembrar conceitos de DOM e aplicar a função drag e drop.
+### Projeto WEB de fim de semana, para relembrar conceitos de DOM e aplicar a função drag e drop.
 
 [Deploy](https://whats-app-message.vercel.app/)
 
